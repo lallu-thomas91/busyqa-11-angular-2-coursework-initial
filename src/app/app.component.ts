@@ -28,9 +28,9 @@ export class AppComponent {
 
   }
 
-  onRemove(i: number){
+  onRemove(index: number){
 
-    this.tasks.splice(i,1);
+    this.tasks.splice(index,1);
 
     this.mode = 'removed';
     this.show = true;
